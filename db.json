@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "id": "1",
+      "description": "work income from home",
+      "value": 2000,
+      "isExpense": false
+    },
+    {
+      "id": "2",
+      "description": "water bill",
+      "value": 324,
+      "isExpense": true
+    },
+    {
+      "id": "3",
+      "description": "rent",
+      "value": 100,
+      "isExpense": true
+    },
+    {
+      "id": "4",
+      "description": "power bill",
+      "value": 54,
+      "isExpense": true
+    },
+    {
+      "description": "love story film i like it",
+      "value": 234,
+      "isExpense": true,
+      "id": "5"
+    }
+  ]
+}
