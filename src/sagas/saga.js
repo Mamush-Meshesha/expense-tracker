@@ -1,4 +1,4 @@
-import { call, delay, put, take } from "redux-saga/effects";
+import { call, delay, fork, put, take } from "redux-saga/effects";
 
 const dueble = (number) => {
   return number + 2;
@@ -13,10 +13,24 @@ function* testSaga() {
   }
 }
 
-function* count() {
-  while (false) {
-    yield delay(1000);
-    yield put({ type: "TEST_MESSAGE" });
+function* doNothing() {
+  console.log("i have been called");
+  yield delay(1000);
+  console.log("am donig nothing");
+}
+function* testSageFork() {
+  while (true) {
+    yield take("test message");
+    yield fork(doNothing);
+    yield fork(doNothing);
+
+    yield fork(doNothing);
   }
 }
-export { testSaga, count };
+function* count() {
+  while (true) {
+    yield delay(5000);
+    yield put({ type: "TEST_MESSAGE", payload: 1000 });
+  }
+}
+export { testSaga, count, testSageFork };

@@ -2,33 +2,77 @@
   "entries": [
     {
       "id": "1",
-      "description": "work income from home",
+      "description": "work income from home"
+    },
+    {
+      "id": "2",
+      "description": "water bill"
+    },
+    {
+      "id": "3",
+      "description": "rent"
+    },
+    {
+      "id": "6ec109bd-f0e5-4bd4-bf27-7ee81184dad2",
+      "description": "tthis  has to work"
+    },
+    {
+      "id": "bb7c531d-9d7b-4ee9-b6b5-70aa7b1a8eb0",
+      "description": "why it not updating"
+    },
+    {
+      "id": "7aa755f3-c110-43f2-a4d0-ef3d6b813893",
+      "description": "hhfdjfd"
+    },
+    {
+      "id": "8a06c10b-2647-4094-b4ff-2363cd7191b3",
+      "description": "hffhdhfd duuhhh"
+    },
+    {
+      "id": "71799aea-cac6-46b2-bafb-239eadc4ec38",
+      "description": "duhh"
+    }
+  ],
+  "values": [
+    {
+      "id": "1",
       "value": 2000,
       "isExpense": false
     },
     {
       "id": "2",
-      "description": "water bill",
       "value": 324,
       "isExpense": true
     },
     {
       "id": "3",
-      "description": "rent",
       "value": 100,
       "isExpense": true
     },
     {
-      "id": "4",
-      "description": "power bill",
-      "value": 54,
-      "isExpense": true
+      "id": "6ec109bd-f0e5-4bd4-bf27-7ee81184dad2",
+      "isExpense": false,
+      "value": "434343"
     },
     {
-      "description": "love story film i like it",
-      "value": 234,
+      "id": "bb7c531d-9d7b-4ee9-b6b5-70aa7b1a8eb0",
       "isExpense": true,
-      "id": "5"
+      "value": "33433"
+    },
+    {
+      "id": "7aa755f3-c110-43f2-a4d0-ef3d6b813893",
+      "isExpense": true,
+      "value": "4343"
+    },
+    {
+      "id": "8a06c10b-2647-4094-b4ff-2363cd7191b3",
+      "isExpense": true,
+      "value": "32323"
+    },
+    {
+      "id": "71799aea-cac6-46b2-bafb-239eadc4ec38",
+      "isExpense": true,
+      "value": "434343"
     }
   ]
 }

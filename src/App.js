@@ -7,7 +7,8 @@ import DisplayBlances from "./components/DisplayBalances";
 import { useEffect, useState } from "react";
 import EntryLInes from "./components/EntryLines";
 import ModalEdit from "./components/ModalEdit";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { getAllEntryRedux } from "./actions/entries.action";
 
 function App() {
   const [incomeTotal, setIncomeTotal] = useState(0);
@@ -37,9 +38,10 @@ const [entry,setEntry] = useState()
     setIncomeTotal(totalIncomes);
   }, [entries]);
 
+  const dispatch = useDispatch()
   useEffect(() => {
-  const title = 
-})
+  dispatch(getAllEntryRedux())
+},[dispatch ])
   return (
     <Container>
       {/* header*/}
